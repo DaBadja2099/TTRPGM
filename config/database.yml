@@ -5,13 +5,13 @@ default: &default
 
 development:
   <<: *default
-  database: nome_do_banco_development
+  database: ttdb_dev
   username: ttdb_user
   password: <%= ENV['TTDB_DATABASE_PASSWORD'] %>
 
 test:
   <<: *default
-  database: nome_do_banco_test
+  database: ttdb_test
   username: ttdb_user
   password: <%= ENV['TTDB_DATABASE_PASSWORD'] %>
 
