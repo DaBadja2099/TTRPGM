@@ -101,7 +101,7 @@ gem 'delayed_job_active_record'
 gem 'paperclip'
 
 # Bootstrap for styling
-gem 'bootstrap', '~> 5.3'
+gem 'bootstrap', '~> 5.3.3'
 
 # Bootswatch for Bootstrap themes
 gem 'bootswatch', '~> 4.3.1'
